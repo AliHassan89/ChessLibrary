@@ -1,3 +1,5 @@
+package board;
+
 import piece.Piece;
 
 public class BoardSquare {
