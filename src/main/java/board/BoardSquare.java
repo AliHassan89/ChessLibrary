@@ -1,8 +1,10 @@
 package board;
 
+import org.springframework.stereotype.Component;
 import piece.Piece;
 
-public class BoardSquare {
+@Component
+public final class BoardSquare {
 
   private Piece piece;
   private int xPos;

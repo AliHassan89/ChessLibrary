@@ -2,12 +2,10 @@ package piece;
 
 import constant.ChessConstants;
 import exception.InvalidPieceException;
-import java.util.ArrayList;
-import java.util.List;
 import org.springframework.stereotype.Component;
 
 @Component
-public class PieceCounter {
+public final class PieceCounter {
 
   private int whiteRookCount;
   private int whiteBishopCount;
@@ -24,8 +22,6 @@ public class PieceCounter {
   private int blackKingCount;
   private int blackPawnCount;
 
-  private List<Piece> allPieces;
-
   public PieceCounter(){
     whiteRookCount = 0;
     whiteBishopCount = 0;
@@ -40,8 +36,6 @@ public class PieceCounter {
     blackQueenCount = 0;
     blackKingCount = 0;
     blackPawnCount = 0;
-
-    allPieces = new ArrayList<>();
   }
 
   /**
@@ -52,11 +46,8 @@ public class PieceCounter {
    * @return boolean if number of pieces of type are less than or equal to required pieces
    */
   public boolean isPieceValidToAdd(Piece piece) {
-    if (piece == null)
-      throw new InvalidPieceException();
-
-    if (allPieces.contains(piece)){
-      throw new InvalidPieceException("This piece already exist in the board");
+    if (piece == null) {
+      throw new InvalidPieceException("Piece is null");
     }
 
     if (piece.getPieceColor() == PieceColor.Black){
@@ -128,7 +119,6 @@ public class PieceCounter {
       }
     }
 
-    allPieces.add(piece);
     return true;
   }
 
@@ -226,13 +216,5 @@ public class PieceCounter {
 
   public void setBlackPawnCount(int blackPawnCount) {
     this.blackPawnCount = blackPawnCount;
-  }
-
-  public List<Piece> getAllPieces() {
-    return allPieces;
-  }
-
-  public void setAllPieces(List<Piece> allPieces) {
-    this.allPieces = allPieces;
   }
 }
