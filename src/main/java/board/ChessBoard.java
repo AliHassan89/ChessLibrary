@@ -1,6 +1,7 @@
 package board;
 
 import fileIO.FileParser;
+import java.io.IOException;
 import org.springframework.beans.factory.annotation.Autowired;
 import piece.Piece;
 import piece.PieceCounter;
@@ -22,7 +23,7 @@ public class ChessBoard {
     board = new BoardSquare[8][8];
   }
 
-  public BoardSquare[][] createChessBoardFromFile(String path){
+  public BoardSquare[][] createChessBoardFromFile(String path) throws IOException{
     String[] boardData = fileParser.readFile(path);
     return createChessBoard(boardData);
   }

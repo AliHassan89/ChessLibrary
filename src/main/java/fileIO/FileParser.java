@@ -1,23 +1,20 @@
 package fileIO;
 
-import exception.WrongInputFileException;
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.FileReader;
 import java.util.Optional;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.springframework.stereotype.Component;
 
 @Component
 public class FileParser {
 
-  public String[] readFile(String path) {
+  public String[] readFile(String path) throws IOException{
     String[] records = new String[8];
     try{
       Optional<BufferedReader> brOptional = Optional.of(new BufferedReader(new FileReader(path)));
-      if (!brOptional.isPresent()) {
-        throw new FileNotFoundException();
-      }
       BufferedReader br = brOptional.get();
       String record;
       int count = 0;
@@ -25,14 +22,10 @@ public class FileParser {
         records[count] = record;
         count++;
       }
-      if (count != 8){
-        throw new WrongInputFileException();
-      }
-    }catch (IOException e){
-      e.printStackTrace();
-      System.out.println("Wrong input file path");
-    } catch (WrongInputFileException e) {
-      System.out.println("Inputfile does not have correct number of rows");
+    }
+    catch (IOException e){
+      Logger.getLogger(FileParser.class.getName()).log(Level.SEVERE, "Wrong input file path", e);
+      throw e;
     }
 
     return records;
