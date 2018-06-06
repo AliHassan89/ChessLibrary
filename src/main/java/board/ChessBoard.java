@@ -28,7 +28,7 @@ public class ChessBoard {
     return createChessBoard(boardData);
   }
 
-  public BoardSquare[][] createChessBoard(String[] boardData){
+  private BoardSquare[][] createChessBoard(String[] boardData){
     int rowIndex = 0;
     for (String row : boardData){
       String[] splittedRow = row.split("|");

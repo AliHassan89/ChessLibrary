@@ -5,7 +5,7 @@ import java.util.Map;
 import org.springframework.stereotype.Component;
 
 @Component
-public final class PieceMapper {
+public class PieceMapper {
 
   private Map<String, PieceType> pieceTypeMapper;
   private Map<String, PieceColor> pieceColorMapper;

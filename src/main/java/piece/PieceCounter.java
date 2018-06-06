@@ -7,7 +7,7 @@ import java.util.List;
 import org.springframework.stereotype.Component;
 
 @Component
-public final class PieceCounter {
+public class PieceCounter {
 
   private int whiteRookCount;
   private int whiteBishopCount;
