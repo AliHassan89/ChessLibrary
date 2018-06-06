@@ -20,6 +20,13 @@
     </plugins>
   </build>
 
+  <properties>
+  <!-- External Dependencies -->
+    <mockitoVersion>2.8.47</mockitoVersion>
+    <equalsVerifierVersion>2.3</equalsVerifierVersion>
+    <meanbeanVersion>2.0.3</meanbeanVersion>
+  </properties>
+
   <dependencies>
     <!-- Spring -->
     <dependency>
@@ -43,6 +50,19 @@
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-core</artifactId>
+      <version>${mockitoVersion}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>nl.jqno.equalsverifier</groupId>
+      <artifactId>equalsverifier</artifactId>
+      <version>${equalsVerifierVersion}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.meanbean</groupId>
+      <artifactId>meanbean</artifactId>
+      <version>${meanbeanVersion}</version>
       <scope>test</scope>
     </dependency>
   </dependencies>

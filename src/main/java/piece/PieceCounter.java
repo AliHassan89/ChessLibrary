@@ -2,16 +2,19 @@ package piece;
 
 import constant.ChessConstants;
 import exception.InvalidPieceException;
+import java.util.ArrayList;
+import java.util.List;
 import org.springframework.stereotype.Component;
 
 @Component
-public class PieceCounter {
+public final class PieceCounter {
 
   private int whiteRookCount;
   private int whiteBishopCount;
   private int whiteKnightCount;
   private int whiteQueenCount;
   private int whiteKingCount;
+
   private int whitePawnCount;
 
   private int blackRookCount;
@@ -20,6 +23,8 @@ public class PieceCounter {
   private int blackQueenCount;
   private int blackKingCount;
   private int blackPawnCount;
+
+  private List<Piece> allPieces;
 
   public PieceCounter(){
     whiteRookCount = 0;
@@ -35,6 +40,8 @@ public class PieceCounter {
     blackQueenCount = 0;
     blackKingCount = 0;
     blackPawnCount = 0;
+
+    allPieces = new ArrayList<>();
   }
 
   /**
@@ -47,6 +54,10 @@ public class PieceCounter {
   public boolean isPieceValidToAdd(Piece piece) {
     if (piece == null)
       throw new InvalidPieceException();
+
+    if (allPieces.contains(piece)){
+      throw new InvalidPieceException("This piece already exist in the board");
+    }
 
     if (piece.getPieceColor() == PieceColor.Black){
       switch(piece.getPieceType()){
@@ -117,6 +128,111 @@ public class PieceCounter {
       }
     }
 
+    allPieces.add(piece);
     return true;
+  }
+
+  public int getWhiteRookCount() {
+    return whiteRookCount;
+  }
+
+  public void setWhiteRookCount(int whiteRookCount) {
+    this.whiteRookCount = whiteRookCount;
+  }
+
+  public int getWhiteBishopCount() {
+    return whiteBishopCount;
+  }
+
+  public void setWhiteBishopCount(int whiteBishopCount) {
+    this.whiteBishopCount = whiteBishopCount;
+  }
+
+  public int getWhiteKnightCount() {
+    return whiteKnightCount;
+  }
+
+  public void setWhiteKnightCount(int whiteKnightCount) {
+    this.whiteKnightCount = whiteKnightCount;
+  }
+
+  public int getWhiteQueenCount() {
+    return whiteQueenCount;
+  }
+
+  public void setWhiteQueenCount(int whiteQueenCount) {
+    this.whiteQueenCount = whiteQueenCount;
+  }
+
+  public int getWhiteKingCount() {
+    return whiteKingCount;
+  }
+
+  public void setWhiteKingCount(int whiteKingCount) {
+    this.whiteKingCount = whiteKingCount;
+  }
+
+  public int getWhitePawnCount() {
+    return whitePawnCount;
+  }
+
+  public void setWhitePawnCount(int whitePawnCount) {
+    this.whitePawnCount = whitePawnCount;
+  }
+
+  public int getBlackRookCount() {
+    return blackRookCount;
+  }
+
+  public void setBlackRookCount(int blackRookCount) {
+    this.blackRookCount = blackRookCount;
+  }
+
+  public int getBlackBishopCount() {
+    return blackBishopCount;
+  }
+
+  public void setBlackBishopCount(int blackBishopCount) {
+    this.blackBishopCount = blackBishopCount;
+  }
+
+  public int getBlackKnightCount() {
+    return blackKnightCount;
+  }
+
+  public void setBlackKnightCount(int blackKnightCount) {
+    this.blackKnightCount = blackKnightCount;
+  }
+
+  public int getBlackQueenCount() {
+    return blackQueenCount;
+  }
+
+  public void setBlackQueenCount(int blackQueenCount) {
+    this.blackQueenCount = blackQueenCount;
+  }
+
+  public int getBlackKingCount() {
+    return blackKingCount;
+  }
+
+  public void setBlackKingCount(int blackKingCount) {
+    this.blackKingCount = blackKingCount;
+  }
+
+  public int getBlackPawnCount() {
+    return blackPawnCount;
+  }
+
+  public void setBlackPawnCount(int blackPawnCount) {
+    this.blackPawnCount = blackPawnCount;
+  }
+
+  public List<Piece> getAllPieces() {
+    return allPieces;
+  }
+
+  public void setAllPieces(List<Piece> allPieces) {
+    this.allPieces = allPieces;
   }
 }
