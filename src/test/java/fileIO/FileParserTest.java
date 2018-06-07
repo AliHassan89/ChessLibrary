@@ -28,7 +28,7 @@ public class FileParserTest {
     expectedData[7] = "1 |ro|kn|bi|qu|ki|bi|kn|ro|";
 
     //when
-    String[] fileData = fileParser.readFile(path);
+    String[] fileData = fileParser.readFileFromPath(path);
 
     //then
     assertThat(fileData, notNullValue());
@@ -38,6 +38,6 @@ public class FileParserTest {
 
   @Test(expected = FileNotFoundException.class)
   public void shouldThrowExceptionOnWrongPath() throws IOException{
-    fileParser.readFile("abcd");
+    fileParser.readFileFromPath("abcd");
   }
 }

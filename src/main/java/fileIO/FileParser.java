@@ -7,9 +7,10 @@ import java.util.Optional;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class FileParser {
+public final class FileParser implements IOParser {
 
-  public String[] readFile(String path) throws IOException{
+  @Override
+  public String[] readFileFromPath(String path) throws IOException{
     String[] records = new String[8];
     try{
       Optional<BufferedReader> brOptional = Optional.of(new BufferedReader(new FileReader(path)));

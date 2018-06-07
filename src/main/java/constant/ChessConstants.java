@@ -1,6 +1,6 @@
 package constant;
 
-public class ChessConstants {
+public final class ChessConstants {
 
   public static final int WHITE_PAWN_COUNT = 8;
   public static final int BLACK_PAWN_COUNT = 8;

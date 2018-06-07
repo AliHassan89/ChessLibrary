@@ -28,11 +28,11 @@ public class ChessBoardTest {
     boardData[6] = "2 |pa|pa|pa|pa|pa|pa|pa|pa|";
     boardData[7] = "1 |ro|kn|bi|qu|ki|bi|kn|ro|";
 
-    BoardSquare[][] expectedBoard = chessBoard.createChessBoard(boardData);
+    BoardSquare[][] expectedBoard = chessBoard.initializeBoardFromBoardData(boardData);
 
 
     //when
-    BoardSquare[][] board = chessBoard.createChessBoardFromFile(filePath);
+    BoardSquare[][] board = chessBoard.initializeBoardFromFile(filePath);
 
     //then
     checkAsserts(board, expectedBoard);
@@ -53,10 +53,10 @@ public class ChessBoardTest {
     boardData[6] = "2 |pa|pa|  |  |  |pa|pa|pa|";
     boardData[7] = "1 |ro|kn|bi|  |ki|bi|kn|ro|";
 
-    BoardSquare[][] expectedBoard = chessBoard.createChessBoard(boardData);
+    BoardSquare[][] expectedBoard = chessBoard.initializeBoardFromBoardData(boardData);
 
     //when
-    BoardSquare[][] board = chessBoard.createChessBoardFromFile(filePath);
+    BoardSquare[][] board = chessBoard.initializeBoardFromFile(filePath);
 
     //then
     checkAsserts(board, expectedBoard);
@@ -77,10 +77,10 @@ public class ChessBoardTest {
     boardData[6] = "2 |  |pa|  |  |  |pa|  |  |";
     boardData[7] = "1 |ro|kn|  |  |ki|bi|kn|  |";
 
-    BoardSquare[][] expectedBoard = chessBoard.createChessBoard(boardData);
+    BoardSquare[][] expectedBoard = chessBoard.initializeBoardFromBoardData(boardData);
 
     //when
-    BoardSquare[][] board = chessBoard.createChessBoardFromFile(filePath);
+    BoardSquare[][] board = chessBoard.initializeBoardFromFile(filePath);
 
     //then
     checkAsserts(board, expectedBoard);
@@ -101,10 +101,10 @@ public class ChessBoardTest {
     boardData[6] = "2 |  |  |  |  |  |pa|  |  |";
     boardData[7] = "1 |ro|  |  |  |ki|  |kn|  |";
 
-    BoardSquare[][] expectedBoard = chessBoard.createChessBoard(boardData);
+    BoardSquare[][] expectedBoard = chessBoard.initializeBoardFromBoardData(boardData);
 
     //when
-    BoardSquare[][] board = chessBoard.createChessBoardFromFile(filePath);
+    BoardSquare[][] board = chessBoard.initializeBoardFromFile(filePath);
 
     //then
     checkAsserts(board, expectedBoard);
@@ -112,7 +112,7 @@ public class ChessBoardTest {
 
   @Test(expected = FileNotFoundException.class)
   public void shouldTestWrongPath() throws IOException{
-    chessBoard.createChessBoardFromFile("abcd");
+    chessBoard.initializeBoardFromFile("abcd");
   }
 
   @Test(expected = InvalidPieceException.class)
@@ -121,7 +121,7 @@ public class ChessBoardTest {
     String filePath = "bin/chess-extra-piece.txt";
 
     //when
-    chessBoard.createChessBoardFromFile(filePath);
+    chessBoard.initializeBoardFromFile(filePath);
   }
 
   private void checkAsserts(BoardSquare[][] board, BoardSquare[][] expectedBoard){

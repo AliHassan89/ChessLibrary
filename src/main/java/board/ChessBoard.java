@@ -6,7 +6,7 @@ import piece.Piece;
 import piece.PieceCounter;
 import piece.PieceMapper;
 
-public class ChessBoard {
+public final class ChessBoard implements Board{
 
   private BoardSquare[][] board;
 
@@ -21,12 +21,14 @@ public class ChessBoard {
     board = new BoardSquare[8][8];
   }
 
-  public BoardSquare[][] createChessBoardFromFile(String path) throws IOException{
-    String[] boardData = fileParser.readFile(path);
-    return createChessBoard(boardData);
+  @Override
+  public BoardSquare[][] initializeBoardFromFile(String path) throws IOException{
+    String[] boardData = fileParser.readFileFromPath(path);
+    return initializeBoardFromBoardData(boardData);
   }
 
-  public BoardSquare[][] createChessBoard(String[] boardData){
+  @Override
+  public BoardSquare[][] initializeBoardFromBoardData(String[] boardData){
     int rowIndex = 0;
     pieceCounter.initCounters();
     for (String row : boardData){
