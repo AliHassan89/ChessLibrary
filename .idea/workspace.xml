@@ -5,10 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/board/BoardSquare.java" afterPath="$PROJECT_DIR$/src/main/java/board/BoardSquare.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/board/ChessBoard.java" afterPath="$PROJECT_DIR$/src/main/java/board/ChessBoard.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/piece/Piece.java" afterPath="$PROJECT_DIR$/src/main/java/piece/Piece.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/piece/PieceCounter.java" afterPath="$PROJECT_DIR$/src/main/java/piece/PieceCounter.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/piece/PieceMapper.java" afterPath="$PROJECT_DIR$/src/main/java/piece/PieceMapper.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/board/ChessBoardTest.java" afterPath="$PROJECT_DIR$/src/test/java/board/ChessBoardTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/piece/PieceCounterTest.java" afterPath="$PROJECT_DIR$/src/test/java/piece/PieceCounterTest.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/piece/Piece.class" afterPath="$PROJECT_DIR$/target/classes/piece/Piece.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ChessBoardTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChessBoardTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/board/ChessBoardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="2520">
+              <caret line="120" column="50" lean-forward="true" selection-start-line="120" selection-start-column="50" selection-end-line="120" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,28 +37,111 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoardSquareTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/board/BoardSquareTest.java">
+      <file leaf-file-name="BoardSquare.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/board/BoardSquare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChessBoard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/board/ChessBoard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="861">
+              <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChessConstants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/constant/ChessConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvalidPieceException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/exception/InvalidPieceException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PieceMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/piece/PieceMapper.java">
+      <file leaf-file-name="FileParser.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fileIO/FileParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PieceCounter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/piece/PieceCounter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="51" column="17" lean-forward="false" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
               <folding>
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#4062#4063#0" expanded="true" />
+                <element signature="e#4093#4094#0" expanded="true" />
+                <element signature="e#4148#4149#0" expanded="true" />
+                <element signature="e#4194#4195#0" expanded="true" />
+                <element signature="e#4232#4233#0" expanded="true" />
+                <element signature="e#4265#4266#0" expanded="true" />
+                <element signature="e#4412#4413#0" expanded="true" />
+                <element signature="e#4445#4446#0" expanded="true" />
+                <element signature="e#4591#4592#0" expanded="true" />
+                <element signature="e#4623#4624#0" expanded="true" />
+                <element signature="e#4680#4681#0" expanded="true" />
+                <element signature="e#4728#4729#0" expanded="true" />
+                <element signature="e#4764#4765#0" expanded="true" />
+                <element signature="e#4795#4796#0" expanded="true" />
+                <element signature="e#4850#4851#0" expanded="true" />
+                <element signature="e#4896#4897#0" expanded="true" />
+                <element signature="e#4932#4933#0" expanded="true" />
+                <element signature="e#4963#4964#0" expanded="true" />
+                <element signature="e#5018#5019#0" expanded="true" />
+                <element signature="e#5064#5065#0" expanded="true" />
+                <element signature="e#5100#5101#0" expanded="true" />
+                <element signature="e#5131#5132#0" expanded="true" />
+                <element signature="e#5186#5187#0" expanded="true" />
+                <element signature="e#5232#5233#0" expanded="true" />
+                <element signature="e#5270#5271#0" expanded="true" />
+                <element signature="e#5303#5304#0" expanded="true" />
+                <element signature="e#5450#5451#0" expanded="true" />
+                <element signature="e#5483#5484#0" expanded="true" />
+                <element signature="e#5629#5630#0" expanded="true" />
+                <element signature="e#5661#5662#0" expanded="true" />
+                <element signature="e#5718#5719#0" expanded="true" />
+                <element signature="e#5766#5767#0" expanded="true" />
+                <element signature="e#5802#5803#0" expanded="true" />
+                <element signature="e#5833#5834#0" expanded="true" />
+                <element signature="e#5888#5889#0" expanded="true" />
+                <element signature="e#5934#5935#0" expanded="true" />
+                <element signature="e#5970#5971#0" expanded="true" />
+                <element signature="e#6001#6002#0" expanded="true" />
+                <element signature="e#6056#6057#0" expanded="true" />
+                <element signature="e#6102#6103#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,30 +150,8 @@
       <file leaf-file-name="PieceCounterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/piece/PieceCounterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2079">
-              <caret line="99" column="3" lean-forward="false" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileParserTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/fileIO/FileParserTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvalidPieceExceptionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/exception/InvalidPieceExceptionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="35" column="36" lean-forward="false" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+            <state relative-caret-position="432">
+              <caret line="90" column="47" lean-forward="true" selection-start-line="90" selection-start-column="2" selection-end-line="90" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,7 +191,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/PieceType.java" />
         <option value="$PROJECT_DIR$/src/main/java/piece/PieceType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/piece/PieceColor.java" />
         <option value="$PROJECT_DIR$/src/main/java/BoardSquare.java" />
         <option value="$PROJECT_DIR$/src/main/java/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/FileReader.java" />
@@ -144,17 +205,18 @@
         <option value="$PROJECT_DIR$/src/test/java/fileIO/FileParserTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/piece/PieceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/piece/Piece.java" />
         <option value="$PROJECT_DIR$/src/test/java/piece/PieceMapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/exception/InvalidPieceException.java" />
         <option value="$PROJECT_DIR$/src/test/java/exception/InvalidPieceExceptionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/board/BoardSquareTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/board/ChessBoardTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/board/ChessBoard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/board/BoardSquare.java" />
-        <option value="$PROJECT_DIR$/src/main/java/piece/PieceCounter.java" />
         <option value="$PROJECT_DIR$/src/main/java/piece/PieceMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/piece/PieceColor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/board/BoardSquare.java" />
+        <option value="$PROJECT_DIR$/src/main/java/piece/Piece.java" />
+        <option value="$PROJECT_DIR$/src/main/java/piece/PieceCounter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/board/ChessBoard.java" />
         <option value="$PROJECT_DIR$/src/test/java/piece/PieceCounterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/board/ChessBoardTest.java" />
       </list>
     </option>
   </component>
@@ -406,7 +468,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ChessBoardTest.shouldInitializeChessBoardFromExternalFile">
+  <component name="RunManager" selected="JUnit.ChessBoardTest.shouldThrowInvalidPieceExceptionOnExtraPieceInBoard">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -428,32 +490,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="BoardSquareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="board.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ChessLibrary" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="board" />
-      <option name="MAIN_CLASS_NAME" value="board.BoardSquareTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ChessBoardTest.shouldInitializeChessBoardFromExternalFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChessBoardTest.shouldInitializeChessBoardFromExternalFile_chess01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="board.*" />
@@ -465,7 +502,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="board" />
       <option name="MAIN_CLASS_NAME" value="board.ChessBoardTest" />
-      <option name="METHOD_NAME" value="shouldInitializeChessBoardFromExternalFile" />
+      <option name="METHOD_NAME" value="shouldInitializeChessBoardFromExternalFile_chess01" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -478,20 +515,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FileParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChessBoardTest.shouldInitializeChessBoardFromExternalFile_chess02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="fileIO.*" />
+          <option name="PATTERN" value="board.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="ChessLibrary" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="fileIO" />
-      <option name="MAIN_CLASS_NAME" value="fileIO.FileParserTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="board" />
+      <option name="MAIN_CLASS_NAME" value="board.ChessBoardTest" />
+      <option name="METHOD_NAME" value="shouldInitializeChessBoardFromExternalFile_chess02" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -503,20 +540,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="InvalidPieceExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChessBoardTest.shouldInitializeChessBoardFromExternalFile_chess03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="exception.*" />
+          <option name="PATTERN" value="board.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="ChessLibrary" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="exception" />
-      <option name="MAIN_CLASS_NAME" value="exception.InvalidPieceExceptionTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="board" />
+      <option name="MAIN_CLASS_NAME" value="board.ChessBoardTest" />
+      <option name="METHOD_NAME" value="shouldInitializeChessBoardFromExternalFile_chess03" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -528,20 +565,45 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PieceCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChessBoardTest.shouldTestWrongPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="piece.*" />
+          <option name="PATTERN" value="board.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="ChessLibrary" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="piece" />
-      <option name="MAIN_CLASS_NAME" value="piece.PieceCounterTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="board" />
+      <option name="MAIN_CLASS_NAME" value="board.ChessBoardTest" />
+      <option name="METHOD_NAME" value="shouldTestWrongPath" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ChessBoardTest.shouldThrowInvalidPieceExceptionOnExtraPieceInBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="board.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ChessLibrary" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="board" />
+      <option name="MAIN_CLASS_NAME" value="board.ChessBoardTest" />
+      <option name="METHOD_NAME" value="shouldThrowInvalidPieceExceptionOnExtraPieceInBoard" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -614,19 +676,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PieceCounterTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FileParserTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.InvalidPieceExceptionTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BoardSquareTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ChessBoardTest.shouldInitializeChessBoardFromExternalFile" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ChessBoardTest.shouldInitializeChessBoardFromExternalFile_chess01" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ChessBoardTest.shouldInitializeChessBoardFromExternalFile_chess02" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ChessBoardTest.shouldInitializeChessBoardFromExternalFile_chess03" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ChessBoardTest.shouldTestWrongPath" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ChessBoardTest.shouldThrowInvalidPieceExceptionOnExtraPieceInBoard" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ChessBoardTest.shouldInitializeChessBoardFromExternalFile" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BoardSquareTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.InvalidPieceExceptionTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FileParserTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PieceCounterTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ChessBoardTest.shouldThrowInvalidPieceExceptionOnExtraPieceInBoard" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ChessBoardTest.shouldTestWrongPath" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ChessBoardTest.shouldInitializeChessBoardFromExternalFile_chess03" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ChessBoardTest.shouldInitializeChessBoardFromExternalFile_chess02" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ChessBoardTest.shouldInitializeChessBoardFromExternalFile_chess01" />
       </list>
     </recent_temporary>
   </component>
@@ -644,7 +706,7 @@
       <option name="presentableId" value="Default" />
       <updated>1528233102080</updated>
       <workItem from="1528233106020" duration="32980000" />
-      <workItem from="1528314873173" duration="4901000" />
+      <workItem from="1528314873173" duration="9347000" />
     </task>
     <task id="LOCAL-00001" summary="master: main functionality as per requirement">
       <created>1528283293216</created>
@@ -688,43 +750,50 @@
       <option name="project" value="LOCAL" />
       <updated>1528294936234</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Unit tests for ChessBoard">
+      <created>1528324096563</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1528324096563</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BoardSquareTest - 2018.06.06 at 23h 06m 37s.xml">
-      <configuration name="BoardSquareTest" configurationId="JUnit" />
+    <history-entry file="ChessBoardTest_shouldInitializeChessBoardFromExternalFile_chess01 - 2018.06.07 at 05h 56m 25s.xml">
+      <configuration name="ChessBoardTest.shouldInitializeChessBoardFromExternalFile_chess01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChessBoardTest_shouldInitializeChessBoardFromExternalFile - 2018.06.06 at 23h 06m 43s.xml">
-      <configuration name="ChessBoardTest.shouldInitializeChessBoardFromExternalFile" configurationId="JUnit" />
+    <history-entry file="ChessBoardTest_shouldInitializeChessBoardFromExternalFile_chess01 - 2018.06.07 at 06h 02m 16s.xml">
+      <configuration name="ChessBoardTest.shouldInitializeChessBoardFromExternalFile_chess01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileParserTest - 2018.06.06 at 23h 06m 20s.xml">
-      <configuration name="FileParserTest" configurationId="JUnit" />
+    <history-entry file="ChessBoardTest_shouldInitializeChessBoardFromExternalFile_chess01 - 2018.06.07 at 06h 04m 22s.xml">
+      <configuration name="ChessBoardTest.shouldInitializeChessBoardFromExternalFile_chess01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvalidPieceExceptionTest - 2018.06.06 at 23h 06m 28s.xml">
-      <configuration name="InvalidPieceExceptionTest" configurationId="JUnit" />
+    <history-entry file="ChessBoardTest_shouldInitializeChessBoardFromExternalFile_chess02 - 2018.06.07 at 06h 07m 03s.xml">
+      <configuration name="ChessBoardTest.shouldInitializeChessBoardFromExternalFile_chess02" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PieceCounterTest - 2018.06.06 at 22h 57m 52s.xml">
+    <history-entry file="ChessBoardTest_shouldInitializeChessBoardFromExternalFile_chess03 - 2018.06.07 at 06h 09m 26s.xml">
+      <configuration name="ChessBoardTest.shouldInitializeChessBoardFromExternalFile_chess03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChessBoardTest_shouldInitializeChessBoardFromExternalFile_chess_startup - 2018.06.07 at 06h 02m 53s.xml">
+      <configuration name="ChessBoardTest.shouldInitializeChessBoardFromExternalFile_chess_startup" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChessBoardTest_shouldTestWrongPath - 2018.06.07 at 06h 10m 59s.xml">
+      <configuration name="ChessBoardTest.shouldTestWrongPath" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChessBoardTest_shouldThrowInvalidPieceExceptionOnExtraPieceInBoard - 2018.06.07 at 06h 14m 30s.xml">
+      <configuration name="ChessBoardTest.shouldThrowInvalidPieceExceptionOnExtraPieceInBoard" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PieceCounterTest - 2018.06.07 at 06h 01m 32s.xml">
       <configuration name="PieceCounterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PieceCounterTest - 2018.06.06 at 23h 04m 06s.xml">
-      <configuration name="PieceCounterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PieceCounterTest - 2018.06.06 at 23h 05m 09s.xml">
-      <configuration name="PieceCounterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PieceCounterTest - 2018.06.06 at 23h 06m 00s.xml">
-      <configuration name="PieceCounterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PieceCounterTest_shouldCreateFullBoardAndExpectItToBeValid - 2018.06.06 at 23h 03m 02s.xml">
-      <configuration name="PieceCounterTest.shouldCreateFullBoardAndExpectItToBeValid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PieceCounterTest_shouldCreateFullBoardAndExpectItToBeValid - 2018.06.06 at 23h 04m 02s.xml">
-      <configuration name="PieceCounterTest.shouldCreateFullBoardAndExpectItToBeValid" configurationId="JUnit" />
+    <history-entry file="PieceTest - 2018.06.07 at 05h 48m 29s.xml">
+      <configuration name="PieceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37881000" />
+    <option name="totallyTimeSpent" value="42327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -777,27 +846,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/board/ChessBoard.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/board/ChessBoard.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/piece/PieceCounter.java</url>
-          <line>87</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="21" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -837,14 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/piece/PieceColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/piece/PieceType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -878,19 +919,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/exception/WrongInputFileException.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/exception/WrongInputFileExceptionTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/exception/InvalidPieceException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-          <folding>
-            <element signature="e#176#177#0" expanded="false" />
-            <element signature="e#194#195#0" expanded="false" />
-            <element signature="e#254#255#0" expanded="false" />
-            <element signature="e#279#280#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="903">
@@ -920,134 +948,6 @@
         <state relative-caret-position="753">
           <caret line="2866" column="18" lean-forward="false" selection-start-line="2866" selection-start-column="18" selection-end-line="2866" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/piece/Piece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/board/BoardSquare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#497#498#0" expanded="false" />
-            <element signature="e#519#520#0" expanded="false" />
-            <element signature="e#558#559#0" expanded="false" />
-            <element signature="e#586#587#0" expanded="false" />
-            <element signature="e#613#614#0" expanded="false" />
-            <element signature="e#634#635#0" expanded="false" />
-            <element signature="e#670#671#0" expanded="false" />
-            <element signature="e#696#697#0" expanded="false" />
-            <element signature="e#723#724#0" expanded="false" />
-            <element signature="e#744#745#0" expanded="false" />
-            <element signature="e#780#781#0" expanded="false" />
-            <element signature="e#806#807#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/constant/ChessConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/board/ChessBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fileIO/FileParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/piece/PieceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/piece/PieceMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1554">
-          <caret line="74" column="77" lean-forward="false" selection-start-line="74" selection-start-column="77" selection-end-line="74" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/piece/PieceCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4007#4008#0" expanded="true" />
-            <element signature="e#4038#4039#0" expanded="true" />
-            <element signature="e#4093#4094#0" expanded="true" />
-            <element signature="e#4139#4140#0" expanded="true" />
-            <element signature="e#4177#4178#0" expanded="true" />
-            <element signature="e#4210#4211#0" expanded="true" />
-            <element signature="e#4357#4358#0" expanded="true" />
-            <element signature="e#4390#4391#0" expanded="true" />
-            <element signature="e#4536#4537#0" expanded="true" />
-            <element signature="e#4568#4569#0" expanded="true" />
-            <element signature="e#4625#4626#0" expanded="true" />
-            <element signature="e#4673#4674#0" expanded="true" />
-            <element signature="e#4709#4710#0" expanded="true" />
-            <element signature="e#4740#4741#0" expanded="true" />
-            <element signature="e#4795#4796#0" expanded="true" />
-            <element signature="e#4841#4842#0" expanded="true" />
-            <element signature="e#4877#4878#0" expanded="true" />
-            <element signature="e#4908#4909#0" expanded="true" />
-            <element signature="e#4963#4964#0" expanded="true" />
-            <element signature="e#5009#5010#0" expanded="true" />
-            <element signature="e#5045#5046#0" expanded="true" />
-            <element signature="e#5076#5077#0" expanded="true" />
-            <element signature="e#5131#5132#0" expanded="true" />
-            <element signature="e#5177#5178#0" expanded="true" />
-            <element signature="e#5215#5216#0" expanded="true" />
-            <element signature="e#5248#5249#0" expanded="true" />
-            <element signature="e#5395#5396#0" expanded="true" />
-            <element signature="e#5428#5429#0" expanded="true" />
-            <element signature="e#5574#5575#0" expanded="true" />
-            <element signature="e#5606#5607#0" expanded="true" />
-            <element signature="e#5663#5664#0" expanded="true" />
-            <element signature="e#5711#5712#0" expanded="true" />
-            <element signature="e#5747#5748#0" expanded="true" />
-            <element signature="e#5778#5779#0" expanded="true" />
-            <element signature="e#5833#5834#0" expanded="true" />
-            <element signature="e#5879#5880#0" expanded="true" />
-            <element signature="e#5915#5916#0" expanded="true" />
-            <element signature="e#5946#5947#0" expanded="true" />
-            <element signature="e#6001#6002#0" expanded="true" />
-            <element signature="e#6047#6048#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1086,10 +986,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/piece/PieceColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/piece/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/board/BoardSquareTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/exception/InvalidPieceExceptionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="35" column="36" lean-forward="false" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/piece/PieceMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1491">
+          <caret line="74" column="77" lean-forward="false" selection-start-line="74" selection-start-column="77" selection-end-line="74" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/piece/PieceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/piece/PieceMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="210">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
             <element signature="e#284#285#0" expanded="true" />
             <element signature="e#313#314#0" expanded="true" />
@@ -1099,38 +1051,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/piece/PieceCounterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2079">
-          <caret line="99" column="3" lean-forward="false" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/fileIO/FileParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        <state relative-caret-position="299">
+          <caret line="38" column="2" lean-forward="true" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/exception/InvalidPieceExceptionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/piece/PieceCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="35" column="36" lean-forward="false" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        <state relative-caret-position="176">
+          <caret line="51" column="17" lean-forward="false" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#4062#4063#0" expanded="true" />
+            <element signature="e#4093#4094#0" expanded="true" />
+            <element signature="e#4148#4149#0" expanded="true" />
+            <element signature="e#4194#4195#0" expanded="true" />
+            <element signature="e#4232#4233#0" expanded="true" />
+            <element signature="e#4265#4266#0" expanded="true" />
+            <element signature="e#4412#4413#0" expanded="true" />
+            <element signature="e#4445#4446#0" expanded="true" />
+            <element signature="e#4591#4592#0" expanded="true" />
+            <element signature="e#4623#4624#0" expanded="true" />
+            <element signature="e#4680#4681#0" expanded="true" />
+            <element signature="e#4728#4729#0" expanded="true" />
+            <element signature="e#4764#4765#0" expanded="true" />
+            <element signature="e#4795#4796#0" expanded="true" />
+            <element signature="e#4850#4851#0" expanded="true" />
+            <element signature="e#4896#4897#0" expanded="true" />
+            <element signature="e#4932#4933#0" expanded="true" />
+            <element signature="e#4963#4964#0" expanded="true" />
+            <element signature="e#5018#5019#0" expanded="true" />
+            <element signature="e#5064#5065#0" expanded="true" />
+            <element signature="e#5100#5101#0" expanded="true" />
+            <element signature="e#5131#5132#0" expanded="true" />
+            <element signature="e#5186#5187#0" expanded="true" />
+            <element signature="e#5232#5233#0" expanded="true" />
+            <element signature="e#5270#5271#0" expanded="true" />
+            <element signature="e#5303#5304#0" expanded="true" />
+            <element signature="e#5450#5451#0" expanded="true" />
+            <element signature="e#5483#5484#0" expanded="true" />
+            <element signature="e#5629#5630#0" expanded="true" />
+            <element signature="e#5661#5662#0" expanded="true" />
+            <element signature="e#5718#5719#0" expanded="true" />
+            <element signature="e#5766#5767#0" expanded="true" />
+            <element signature="e#5802#5803#0" expanded="true" />
+            <element signature="e#5833#5834#0" expanded="true" />
+            <element signature="e#5888#5889#0" expanded="true" />
+            <element signature="e#5934#5935#0" expanded="true" />
+            <element signature="e#5970#5971#0" expanded="true" />
+            <element signature="e#6001#6002#0" expanded="true" />
+            <element signature="e#6056#6057#0" expanded="true" />
+            <element signature="e#6102#6103#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/board/BoardSquareTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/piece/PieceCounterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="432">
+          <caret line="90" column="47" lean-forward="true" selection-start-line="90" selection-start-column="2" selection-end-line="90" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1139,11 +1123,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/board/ChessBoardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="2520">
+          <caret line="120" column="50" lean-forward="true" selection-start-line="120" selection-start-column="50" selection-end-line="120" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/board/BoardSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/board/ChessBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/constant/ChessConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exception/InvalidPieceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fileIO/FileParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

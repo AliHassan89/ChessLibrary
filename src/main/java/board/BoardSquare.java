@@ -15,15 +15,16 @@ public final class BoardSquare {
     yPos = 0;
   }
 
-  public BoardSquare(Piece piece){
-    new BoardSquare();
-    this.piece = piece;
+  public BoardSquare(int xPos, int yPos){
+    set_xPos(xPos);
+    set_yPos(yPos);
+    setPiece(null);
   }
 
   public BoardSquare(Piece piece, int xPos, int yPos){
-    new BoardSquare(piece);
-    this.xPos = xPos;
-    this.yPos = yPos;
+    setPiece(piece);
+    set_xPos(xPos);
+    set_yPos(yPos);
   }
 
   public Piece getPiece() {

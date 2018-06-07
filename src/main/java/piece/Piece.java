@@ -14,8 +14,8 @@ public final class Piece {
   }
 
   public Piece(PieceType type, PieceColor color){
-    this.pieceType = type;
-    this.pieceColor = color;
+    setPieceType(type);
+    setPieceColor(color);
   }
 
   public PieceType getPieceType() {

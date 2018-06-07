@@ -26,8 +26,9 @@ public class ChessBoard {
     return createChessBoard(boardData);
   }
 
-  private BoardSquare[][] createChessBoard(String[] boardData){
+  public BoardSquare[][] createChessBoard(String[] boardData){
     int rowIndex = 0;
+    pieceCounter.initCounters();
     for (String row : boardData){
       String[] splittedRow = row.split("\\|");
       for (int i=1; i<splittedRow.length; i++){
@@ -37,6 +38,8 @@ public class ChessBoard {
           if (pieceCounter.isPieceValidToAdd(currPiece)) {
             board[rowIndex][i-1] = new BoardSquare(currPiece, rowIndex, i-1);
           }
+        }else{
+          board[rowIndex][i-1] = new BoardSquare(rowIndex, i-1);
         }
       }
       rowIndex++;

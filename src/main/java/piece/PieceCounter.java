@@ -23,6 +23,10 @@ public final class PieceCounter {
   private int blackPawnCount;
 
   public PieceCounter(){
+    initCounters();
+  }
+
+  public void initCounters(){
     whiteRookCount = 0;
     whiteBishopCount = 0;
     whiteKnightCount = 0;

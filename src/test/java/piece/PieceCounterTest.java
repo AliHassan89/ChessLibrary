@@ -9,10 +9,13 @@ import org.meanbean.test.BeanTester;
 
 public class PieceCounterTest {
 
+  private static final PieceCounter pieceCounter = new PieceCounter();
+
   @Test
   public void shouldCreateFullBoardAndExpectItToBeValid(){
     //given
-    PieceCounter pieceCounter = new PieceCounter();
+    pieceCounter.initCounters();
+
     Piece whitePawn_1 = new Piece(PieceType.Pawn, PieceColor.White);
     Piece whitePawn_2 = new Piece(PieceType.Pawn, PieceColor.White);
     Piece whitePawn_3 = new Piece(PieceType.Pawn, PieceColor.White);
@@ -88,7 +91,8 @@ public class PieceCounterTest {
   @Test(expected = InvalidPieceException.class)
   public void shouldThrowInvalidPieceExceptionOnAddingExtraPiece(){
     //given
-    PieceCounter pieceCounter = new PieceCounter();
+    pieceCounter.initCounters();
+
     Piece whiteRook_1 = new Piece(PieceType.Rook, PieceColor.White);
     Piece whiteRook_2 = new Piece(PieceType.Rook, PieceColor.White);
     Piece whiteRook_3 = new Piece(PieceType.Rook, PieceColor.White);
