@@ -2,9 +2,7 @@ package piece;
 
 import constant.ChessConstants;
 import exception.InvalidPieceException;
-import org.springframework.stereotype.Component;
 
-@Component
 public final class PieceCounter {
 
   private int whiteRookCount;

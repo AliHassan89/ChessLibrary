@@ -1,9 +1,7 @@
 package piece;
 
 import java.util.Objects;
-import org.springframework.stereotype.Component;
 
-@Component
 public final class Piece {
 
   private PieceType pieceType;

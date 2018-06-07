@@ -1,14 +1,12 @@
 package fileIO;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.FileReader;
+import java.io.IOException;
 import java.util.Optional;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.springframework.stereotype.Component;
 
-@Component
 public class FileParser {
 
   public String[] readFile(String path) throws IOException{
